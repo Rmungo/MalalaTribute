@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(pink, rgb(156, 215, 235), pink);
     height: 100%;
+    width: 100%;
 }
 
 #img-div {
@@ -42,6 +43,8 @@ body {
     font-weight: 500;
     line-height: 145%;
     text-align: auto;
+    left: 13px;
+    width: 102%;
 }
 
 .mainpic {
@@ -133,7 +136,7 @@ h1 {
     grid-area: header;
     margin: 0;
     margin-bottom: 5px;
-    height: 70px;
+    height: 21px;
     font-size: 67px;
     position: relative;
     bottom: 15px;
@@ -217,6 +220,7 @@ h1 {
     font-size: 35px;
     text-shadow: 2px 3px 6px black;
     text-align: center;
+    margin-top: 14px;
 }
 
 .line1 {
@@ -226,7 +230,8 @@ h1 {
 
 .line2 {
     position: relative;
-    top: -10px;
+    top: -25px;
+    left: -7px;
 }
 
 .qthree {
@@ -315,5 +320,23 @@ h1 {
     font-family: 'roboto condensed';
 }
 
-@media (min-width: 745px) {
+.linkInfo {
+    position: relative;
+    left: 27%;
+    width: 150px;
+    margin: 0;
+}
+
+.website1 {
+    position: relative;
+    left: 10%;
+    width: 200px;
+    margin: 0;
+}
+
+.website2 {
+    position: relative;
+    left: 21%;
+    width: 150px;
+    margin: 0;
 }
