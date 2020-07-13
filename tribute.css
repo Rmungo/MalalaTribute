@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(pink, rgb(156, 215, 235), pink);
+    min-width: 636px;
+    min-height: 645px;
+}
+
+#img-div {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4, 19.5vh);
+    grid-template-areas:
+        'one main two'
+        'three main four'
+        'five main six'
+        'seven main eight'
+        'caption caption caption';
+    grid-gap: 15px;
+}
+
+.pic {
+    display: block;
+    border: 2px solid rgb(30, 163, 207);
+    border-radius: 7px;
+    box-shadow: 5px 10px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img-caption {
+    grid-area: caption;
+    font-family: 'Baskervville';
+    font-size: 23px;
+    color: white;
+    text-shadow: 2px 4px 4px black;
+    padding: 0 20px 0;
+    font-weight: 500;
+    line-height: 145%;
+    text-align: auto;
+}
+
+.mainpic {
+    grid-area: main;
+    background-image: url('malala1.jpg');
+}
+
+.item1 {
+    grid-area: one;
+    background-image: url('malala2.jpg');
+    background-position: 0% 0%;
+}
+.item2 {
+    grid-area: two;
+    background-image: url('malala7.jpg');
+    background-position: left top;
+}
+.item3 {
+    grid-area: three;
+    background-image: url('malala8.jpg');
+    background-position: center center;
+}
+.item4 {
+    grid-area: four;
+    background-image: url('malala9.jpg');
+}
+.item5 {
+    grid-area: five;
+    background-image: url('malala12.jpg');
+    background-position: 0% 10%;
+}
+.item6 {
+    grid-area: six;
+    background-image: url('malala13.jpg');
+    background-position: 60% 28%;
+}
+.item7 {
+    grid-area: seven;
+    background-image: url('malala20.jpg');
+}
+.item8 {
+    grid-area: eight;
+    background-image: url('malala14.jpg');
+}
+
+h1 {
+    font-family: 'yellowtail';
+    color: #fffa65;
+    text-shadow: 5px 5px 8px black;
+    text-align: center;
+    font-size: 75px;
+}
+
+.malala {
+    font-family: 'yellowtail';
+    color: #fffa65;
+    display: inline-block;
+    margin-right: 10px;
+    text-shadow: 5px 5px 8px black;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.hspan {
+    color: #17c0eb;
+}
+
+/* blue: #17c0eb */
+/* yellow:  #fffa65; */
+
+#main {
+    display: grid;
+    grid-template-rows: repeat(11, auto);
+    grid-template-areas:
+        'header'
+        'images'
+        'qoute1'
+        'StoryHeader'
+        'begin'
+        'qoute2'
+        'midstory'
+        'qoute3'
+        'final'
+        'qoute4'
+        'links';
+}
+
+#title {
+    grid-area: header;
+    margin: 0;
+    margin-bottom: 5px;
+    height: 70px;
+    font-size: 67px;
+    position: relative;
+    bottom: 15px;
+}
+
+#img-div {
+    grid-area: images;
+}
+
+.qOne {
+    grid-area: qoute1;
+    color: rgb(252, 206, 214);
+}
+
+.infoHeader {
+    grid-area: StoryHeader;
+}
+
+.timeline1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        'year year2'
+        'info info2'
+        '. .'
+        '. .';
+}
+
+#yr97 {
+    grid-area: year;
+}
+
+#yr08 {
+    grid-area: year;
+}
+
+.qtwo {
+    grid-area: qoute2;
+    color: #faf7a9;
+}
+
+.timeline2 {
+    grid-area: midstory;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        'year3 year4'
+        'info3 info4'
+        '. .'
+        '. .';
+}
+
+#yr12 {
+    grid-area: year;
+}
+
+#yr14 {
+    grid-area: year;
+}
+
+.timeline3 {
+    grid-area: final;
+}
+
+.qfour {
+    grid-area: qoute4;
+    color: wheat;
+}
+
+.links {
+    grid-area: links;
+}
+
+.lines {
+    font-weight: bolder;
+}
+
+.qoute {
+    font-size: 35px;
+    text-shadow: 2px 3px 6px black;
+    text-align: center;
+}
+
+.line1 {
+    position: relative;
+    top: 15px;
+}
+
+.line2 {
+    position: relative;
+    bottom: 40px;
+}
+
+.qthree {
+    grid-area: qoute3;
+    color: rgb(157, 228, 252);
+    text-shadow: 2px 4px 5px black;
+}
+
+.exclam {
+    color: white;
+}
+
+.subHeaders {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 42px;
+    font-family: 'yellowtail';
+    color: wheat;
+    text-shadow: 5px 5px 8px black;
+}
+
+.timeline {
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Roboto Condensed';
+    color: whitesmoke;
+    text-shadow: 5px 5px 8px black;
+    font-size: 20px;
+}
+
+#nineseven {
+    line-height: 185%;
+    font-size: 24px;
+}
+
+#twelve {
+    line-height: 160%;
+}
+
+#eightteen {
+    font-size: 24px;
+    line-height: 140%;
+    text-shadow: 5px 4px 6px black;
+}
+
+.yearEntry {
+    display: grid;
+    /* border: 5px solid #a9eafa;
+    border-radius: 20px; */
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'year'
+        'info';
+    margin-right: 5px;
+}
+
+.linkPic1 {
+    background-image: url('malalalink2.jpg');
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid #17c0eb;
+    display: inline-block;
+}
+
+.linkPic2 {
+    background-image: url('malalalinks3.jpg');
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid #17c0eb;
+    display: inline-block;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    text-shadow: 3px 2px 3px black;
+    font-size: 16px;
+    font-family: 'roboto condensed';
+}
+
+@media (min-width: 745px) {
+}
