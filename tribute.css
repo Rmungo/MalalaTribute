@@ -6,6 +6,7 @@
 
 body {
     background: linear-gradient(pink, rgb(156, 215, 235), pink);
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
