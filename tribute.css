@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-main {
-    overflow-x: hidden;
+html,
+body {
     position: relative;
+    overflow-x: hidden;
 }
 
 body {
@@ -114,7 +115,7 @@ h1 {
 }
 
 .hspan {
-    color: orangered;
+    color: purple;
 }
 
 /* blue: #17c0eb */
