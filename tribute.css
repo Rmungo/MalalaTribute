@@ -11,6 +11,11 @@ body {
     width: 100%;
 }
 
+.bodyWrap {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+        env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 #img-div {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -110,7 +115,7 @@ h1 {
 }
 
 .hspan {
-    color: red;
+    color: brown;
 }
 
 /* blue: #17c0eb */
