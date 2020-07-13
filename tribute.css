@@ -46,7 +46,7 @@ body {
     border-radius: 7px;
     box-shadow: 5px 10px 10px;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 
@@ -72,7 +72,7 @@ body {
 .item1 {
     grid-area: one;
     background-image: url('malala2.jpg');
-    background-position: 0% 0%;
+    background-position: 51% 0%;
 }
 .item2 {
     grid-area: two;
@@ -87,12 +87,14 @@ body {
 .item4 {
     grid-area: four;
     background-image: url('malala9.jpg');
+    background-position: center;
 }
 .item5 {
     grid-area: five;
     background-image: url('malala12.jpg');
-    background-position: 0% 10%;
+    background-position: 60% 10%;
 }
+
 .item6 {
     grid-area: six;
     background-image: url('malala13.jpg');
@@ -101,10 +103,12 @@ body {
 .item7 {
     grid-area: seven;
     background-image: url('malala20.jpg');
+    background-position: center;
 }
 .item8 {
     grid-area: eight;
     background-image: url('malala14.jpg');
+    background-position: 76% 74%;
 }
 
 h1 {
