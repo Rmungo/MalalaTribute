@@ -4,11 +4,14 @@
     padding: 0;
 }
 
+html {
+    position: absolute;
+}
+
 body {
     background: linear-gradient(pink, rgb(156, 215, 235), pink);
     height: 100%;
     width: 100%;
-    position: fixed;
 }
 
 #img-div {
@@ -110,7 +113,7 @@ h1 {
 }
 
 .hspan {
-    color: green;
+    color: black;
 }
 
 /* blue: #17c0eb */
