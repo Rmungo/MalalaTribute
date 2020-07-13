@@ -8,6 +8,7 @@ body {
     background: linear-gradient(pink, rgb(156, 215, 235), pink);
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #img-div {
