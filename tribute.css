@@ -4,11 +4,22 @@
     padding: 0;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.bodyWrap {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+        env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 body {
     background-image: linear-gradient(pink, rgb(156, 215, 235), pink);
     background-size: cover;
     height: 100%;
     width: 100%;
+    min-height: 100%;
 }
 
 .bodyWrap {
@@ -115,7 +126,7 @@ h1 {
 }
 
 .hspan {
-    color: brown;
+    color: green;
 }
 
 /* blue: #17c0eb */
