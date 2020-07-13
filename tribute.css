@@ -6,8 +6,6 @@
 
 body {
     background: linear-gradient(pink, rgb(156, 215, 235), pink);
-    min-width: 636px;
-    min-height: 645px;
 }
 
 #img-div {
